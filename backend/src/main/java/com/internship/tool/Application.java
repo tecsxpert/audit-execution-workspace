@@ -5,7 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 import java.util.TimeZone;
-
+import org.springframework.cache.annotation.EnableCaching;
+@EnableCaching
 @EnableScheduling
 @SpringBootApplication
 public class Application {
